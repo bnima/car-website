@@ -1,4 +1,4 @@
-package controller;
+package com.cars.inventory.controller;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import domain.Car;
-import repository.CarRepository;
+import com.cars.inventory.domain.Car;
+import com.cars.inventory.repository.CarRepository;
 
 @RestController
 @RequestMapping("/rest/cars")

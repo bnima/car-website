@@ -1,4 +1,4 @@
-package domain;
+package com.cars.inventory.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
